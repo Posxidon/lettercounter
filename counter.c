@@ -57,7 +57,7 @@ int main()
   }
   // Prints the number of spaces and the percentage of their appearance
   printf("\nTotal spaces: %d\n", spaces);
-  // Prints the number of non-alphabetical characters and the percentage of their appearance
+  // Prints the number of non-alphabetical characters and the percentage of their appearance (including spaces)
   printf("%-10s%-15d%-15.2f\n","Other",
                               other,
                               (((float) other) / strlen(buffer)) * 100);
